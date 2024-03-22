@@ -1,0 +1,241 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(198, 12, 223);
+
+}
+
+div h1 {
+    width: 30%;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(19, 226, 226);
+    margin-left: 550px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.task {
+    border: 2px solid rebeccapurple;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background: rgba(23, 226, 43, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 3px solid #fff;
+    display: flex;
+    justify-content: space-between; 
+}
+
+p {
+    color: #fff;
+    font-size: 24px;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.icon-angry2 {
+    color: yellow;
+}
+
+.icon:hover {
+    font-size: 30px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.icon-star, .icon-trash {
+    color: #fff;
+    opacity: 0.4;
+}
+
+.icon-star:hover {
+    color: rgb(19, 243, 30);
+    opacity: 1;
+}
+
+.icon-trash {
+    margin-right: 10px;
+}
+.icon-trash:hover {
+    color: rgb(200, 233, 14);
+    opacity: 1;
+}
+.icon-angry2:hover {
+    color: rgb(238, 21, 21);
+    opacity: 1;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+input {
+    padding: 20px;
+    border-radius: 7px;
+    width: 40vw;
+    font-size: 25px;
+    text-align: center;
+}
+
+button {all:unset;}
+
+.icon-upload {
+    font-size: 50px;
+    color: #fff;
+    margin-left: 20px;
+    position: relative;
+    top: 8px;
+}
+
+.icon-upload:hover {
+    font-size: 60px;
+    transition: 0.3s;
+    color: rgb(18, 60, 245);
+}
+
+/* for js */
+.dn {
+    display: none;
+}
+
+.icon-heart {
+    font-size: 24px;
+    color: rgb(248, 25, 25);
+}
+
+.icon-heart:hover {
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.finish {
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+}
+
+.green {
+    color: rgb(19, 243, 30);
+    opacity: 1;
+}
+
+/* Responsive styles */
+/* Medium screens (e.g., tablets) */
+@media only screen and (max-width: 1024px) {
+    div h1 {
+        width: 80%;
+        /* Adjust width */
+        margin-left: auto;
+        /* Center align */
+        margin-right: auto;
+        /* Center align */
+        margin-top: 30px;
+        font-size: 3rem;
+        /* Decrease font size */
+        padding: 20px;
+        /* Adjust padding */
+    }
+
+    .task {
+        width: 90%;
+        /* Adjust width */
+        margin: 30px auto;
+        /* Center align */
+        padding: 15px;
+        /* Adjust padding */
+        font-size: 20px;
+        /* Decrease font size */
+    }
+
+    input {
+        width: 70%;
+        /* Adjust width */
+        padding: 15px;
+        /* Adjust padding */
+        font-size: 20px;
+        /* Decrease font size */
+    }
+
+    h2 {
+        font-size: 30px;
+        /* Decrease font size */
+        margin-top: 50px;
+        /* Adjust margin */
+        margin-bottom: 20px;
+        /* Adjust margin */
+    }
+}
+
+/* Small screens (e.g., mobile phones) */
+@media only screen and (max-width: 600px) {
+    div h1 {
+        width: 90%;
+        /* Adjust width */
+        margin-left: auto;
+        /* Center align */
+        margin-right: auto;
+        /* Center align */
+        margin-top: 20px;
+        /* Adjust margin */
+        font-size: 2rem;
+        /* Decrease font size */
+        padding: 15px;
+        /* Adjust padding */
+    }
+
+    .task {
+        width: 95%;
+        /* Adjust width */
+        margin: 20px auto;
+        /* Center align */
+        padding: 10px;
+        /* Adjust padding */
+        font-size: 18px;
+        /* Decrease font size */
+    }
+
+    input {
+        width: 80%;
+        /* Adjust width */
+        padding: 10px;
+        /* Adjust padding */
+        font-size: 18px;
+        /* Decrease font size */
+    }
+
+    h2 {
+        font-size: 25px;
+        /* Decrease font size */
+        margin-top: 30px;
+        /* Adjust margin */
+        margin-bottom: 15px;
+        /* Adjust margin */
+    }
+}
+
+/* Specific styles */
+/* Remaining styles remain unchanged */
